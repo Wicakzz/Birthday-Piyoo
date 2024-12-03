@@ -1,0 +1,3 @@
+git add <folder-or-file>
+git commit -m "Add media files"
+git push
