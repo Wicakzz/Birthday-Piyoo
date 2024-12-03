@@ -43,6 +43,112 @@ button{
     opacity: 0.8;
 }
 
+/* Umum */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.wrapper {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 24px;
+    line-height: 1.4;
+    margin: 20px 0;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.main-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+/* Slider */
+.slider {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.card {
+    width: 200px;
+    flex-shrink: 0;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 10px;
+    text-align: center;
+}
+
+.netflix-card-text {
+    font-size: 14px;
+}
+
+/* Footer */
+.copy-right {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Responsif untuk Perangkat Kecil */
+@media (max-width: 767.98px) {
+    .wrapper {
+        padding: 10px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .main-image {
+        margin-top: 10px;
+    }
+
+    .slider {
+        gap: 5px;
+    }
+
+    .card {
+        width: 150px;
+    }
+
+    .netflix-card-text {
+        font-size: 12px;
+    }
+}
+
+
 /*video*/
 .slider{
     top: 250px;
